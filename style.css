@@ -1,0 +1,28 @@
+body {
+   background: linear-gradient(to top, #3399ff 0%, #ffccff 100%);
+}
+
+.container{
+     display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}
+
+h1{
+  padding: 20px;
+	font-size: 50px;
+	font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
